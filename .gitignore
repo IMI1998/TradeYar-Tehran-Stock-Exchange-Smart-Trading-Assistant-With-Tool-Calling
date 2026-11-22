@@ -1,0 +1,42 @@
+# ── Secrets / environment ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Runtime data & local cache ────────────────────────────────────
+# فقط پوشهٔ data در ریشهٔ پروژه نادیده گرفته می‌شود؛
+# پکیج backend/data/ بخشی از سورس است و باید کامیت شود.
+/data/
+*.parquet
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# ── Streamlit ─────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── OS / editors ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
