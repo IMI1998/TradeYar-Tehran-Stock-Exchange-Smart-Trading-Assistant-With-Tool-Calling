@@ -81,8 +81,8 @@
 </div>
 
 ```bash
-git clone https://github.com/<your-username>/tse-copilot.git
-cd tse-copilot
+git clone https://github.com/IMI1998/TradeYar-.git
+cd TradeYar-
 
 python -m venv .venv
 # Windows
@@ -274,7 +274,7 @@ class MyIndicator(Indicator):
 </div>
 
 ```text
-tse-copilot/
+TradeYar-/
 ├── backend/
 │   ├── main.py               # اپ FastAPI و مسیرهای REST/WS
 │   ├── schemas.py            # مدل‌های ورودی/خروجی
